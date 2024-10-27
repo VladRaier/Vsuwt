@@ -1,0 +1,42 @@
+.header {
+	display: flex;
+	align-items: center;
+	background-color: blue;
+	background-image: url(/images/Head.png);
+	background-position: center;
+	height: 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__wrapper {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__title {
+		display: flex;
+		align-items: center;
+	}
+
+	&__title_text {
+		font-size: 22px;
+		color: white;
+		margin-left: 20px;
+	}
+
+	&__logo {
+		width: 100px;
+		height: 100px;
+		background-image: url(/images/Vsuwt-logo.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__menu {
+		height: 100%;
+		background: blue;
+	}
+}
